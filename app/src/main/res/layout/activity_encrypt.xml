@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncryptActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvOrginal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="Orginal Message"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etOutput"
+        android:layout_below="@+id/tvOrginal"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:maxHeight="80dp"
+        android:layout_alignLeft="@+id/etOutput" />
+
+    <Button
+        android:id="@+id/btnEncrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encrypt"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/etInput"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvEncrypted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Encrypted Message"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/etOutput"
+        android:textIsSelectable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEncrypted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:maxHeight="80dp" />
+
+    <Button
+        android:id="@+id/btnCopyEncryptedData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:text="Copy Encrypted Data" />
+
+
+</RelativeLayout>
