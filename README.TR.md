@@ -1,4 +1,4 @@
-# TextLock
+# Text Lock
 
 RSA algoritması ile geliştirilen bir metin şifreleme uygulaması.
 
