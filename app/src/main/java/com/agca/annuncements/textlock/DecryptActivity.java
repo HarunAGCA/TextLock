@@ -82,6 +82,7 @@ public class DecryptActivity extends AppCompatActivity {
                     }
 
                     etOutput.setText(s);
+                    s = "";
                     etInput.setText("");
 
                 } catch (Exception e) {
