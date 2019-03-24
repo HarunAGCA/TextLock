@@ -1,6 +1,6 @@
 ##### To Read Turkish : [Turkish README](/README.TR.md)
 
-# TextLock
+# Text Lock
 
 A text encryption application that developed with RSA algorithm.
 
