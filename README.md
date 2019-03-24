@@ -5,19 +5,19 @@
 A text encryption application that developed with RSA algorithm.
 
 ## Application Icon
-![Application Icon](/Screenshots/0.PNG)
+<img src="/Screenshots/0.png" alt="Application Icon" height="732" width="412">
 
 ## Splash Screen
-![Splash Screen](/Screenshots/1.PNG)
+<img src="/Screenshots/01.png" alt="Splash Screen" height="732" width="412">
 
 ## Encrpt/Decrypt Buttons
-![Encrpt/Decrypt Buttons](/Screenshots/02.PNG)
+<img src="/Screenshots/02.png" alt="Encrpt/Decrypt Buttons" height="732" width="412">
 
 ## Encrypt Activity
-![Encrypt Activity](/Screenshots/03.PNG)
-![Encrypt Activity](/Screenshots/04.PNG)
-![Encrypt Activity](/Screenshots/05.PNG)
+<img src="/Screenshots/03.png" alt="Encrypt Activity" height="732" width="412">
+<img src="/Screenshots/04.png" alt="Encrypt Activity" height="732" width="412">
+<img src="/Screenshots/05.png" alt="Encrypt Activity" height="732" width="412">
 
 ## Decrypt Activity
-![Decrypt Activity](/Screenshots/06.PNG)
-![Decrypt Activity](/Screenshots/07.PNG)
+<img src="/Screenshots/06.png" alt="Decrypt Activity" height="732" width="412">
+<img src="/Screenshots/07.png" alt="Decrypt Activity" height="732" width="412">
